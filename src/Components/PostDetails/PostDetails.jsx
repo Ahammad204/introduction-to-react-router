@@ -4,6 +4,7 @@ import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 const PostDetails = () => {
 
     const post = useLoaderData();
+    // eslint-disable-next-line no-unused-vars
     const {postId} = useParams();
     const navigate = useNavigate();
     const {id,title,body} = post

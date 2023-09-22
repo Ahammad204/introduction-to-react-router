@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Outlet, useLocation, useNavigation } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
