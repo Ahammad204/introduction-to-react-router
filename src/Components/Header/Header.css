@@ -5,3 +5,11 @@ nav a {
 
 
 }
+
+nav a.active{
+
+    text-decoration: underline;
+    color: peru;
+    
+
+}
