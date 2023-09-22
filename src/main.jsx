@@ -14,6 +14,7 @@ import Users from './Components/Users/Users';
 import UserDetails from './Components/UserDetails/UserDetails';
 import Posts from './Components/Posts/Posts';
 import PostDetails from './Components/PostDetails/PostDetails';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 // import Header from './Components/Header/Header';
 
 const router =  createBrowserRouter([
@@ -22,6 +23,7 @@ const router =  createBrowserRouter([
 
   path:'/',
   element:<Home></Home>,
+  errorElement:<ErrorPage></ErrorPage>,
 /*   children:[
     {
 
